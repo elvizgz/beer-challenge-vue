@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BeerList from './components/BeerList.vue'
 </script>
 
 <template>
@@ -7,7 +8,7 @@
   </header>
 
   <main>
-    
+    <BeerList />
   </main>
 </template>
 
